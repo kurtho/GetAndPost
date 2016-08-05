@@ -18,12 +18,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZm-wb-48w">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="285" y="285" width="30" height="30"/>
+                                <state key="normal" title="Get"/>
+                                <connections>
+                                    <action selector="get:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pcv-zI-xEw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUe-Ot-L1g">
-                                <rect key="frame" x="277" y="351" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="284.5" y="351" width="31" height="30"/>
+                                <state key="normal" title="Post"/>
+                                <connections>
+                                    <action selector="post:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uCF-YV-ga1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
